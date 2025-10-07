@@ -474,19 +474,51 @@ function App() {
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
                   <div className="flex items-center gap-2 mb-2">
                     <Briefcase className="w-4 h-4 text-cyan-400" />
-                    <span className="text-cyan-400 text-sm font-semibold">Current Role</span>
+                    <span className="text-cyan-400 text-sm font-semibold">February 2022 - August 2023</span>
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Cybersecurity Professional</h3>
+                  <h3 className="text-xl font-semibold mb-2">Cybersecurity Analyst</h3>
                   <p className="text-slate-400 mb-4">Aptech • Remote</p>
                   <p className="text-slate-300">
-                    Leading security initiatives in cloud infrastructure, DevSecOps pipeline integration, and threat intelligence operations.
-                    Implementing comprehensive security architectures for multi-cloud environments.
+                    Led security initiatives in cloud infrastructure, DevSecOps pipeline integration, and threat intelligence operations.
+                    Implemented comprehensive security architectures for multi-cloud environments and automated security workflows.
                   </p>
                 </div>
               </div>
 
               <div className="relative pl-20 pb-12">
                 <div className="absolute left-5 w-6 h-6 bg-blue-500 rounded-full border-4 border-slate-950"></div>
+                <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Briefcase className="w-4 h-4 text-blue-400" />
+                    <span className="text-blue-400 text-sm font-semibold">June 2020 - February 2022</span>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">Security Operations Centre Analyst</h3>
+                  <p className="text-slate-400 mb-4">Inforprive • Remote</p>
+                  <p className="text-slate-300">
+                    Monitored and analyzed security events using SIEM platforms. Conducted incident response, threat hunting, and vulnerability assessments.
+                    Developed automated detection rules and security playbooks for SOC operations.
+                  </p>
+                </div>
+              </div>
+
+              <div className="relative pl-20 pb-12">
+                <div className="absolute left-5 w-6 h-6 bg-purple-500 rounded-full border-4 border-slate-950"></div>
+                <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Briefcase className="w-4 h-4 text-purple-400" />
+                    <span className="text-purple-400 text-sm font-semibold">February 2017 - November 2019</span>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">IT Support Specialist</h3>
+                  <p className="text-slate-400 mb-4">MTN • On-Site</p>
+                  <p className="text-slate-300">
+                    Provided technical support for IT infrastructure and network systems. Managed system security configurations,
+                    troubleshot network issues, and assisted with security policy implementation.
+                  </p>
+                </div>
+              </div>
+
+              <div className="relative pl-20 pb-12">
+                <div className="absolute left-5 w-6 h-6 bg-green-500 rounded-full border-4 border-slate-950"></div>
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
                   <h3 className="text-xl font-semibold mb-2">Key Achievements</h3>
                   <ul className="space-y-2 text-slate-300">
@@ -511,17 +543,17 @@ function App() {
               </div>
 
               <div className="relative pl-20">
-                <div className="absolute left-5 w-6 h-6 bg-purple-500 rounded-full border-4 border-slate-950"></div>
+                <div className="absolute left-5 w-6 h-6 bg-orange-500 rounded-full border-4 border-slate-950"></div>
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-2">Education & Training</h3>
+                  <h3 className="text-xl font-semibold mb-2">Education</h3>
                   <div className="space-y-3 text-slate-300">
                     <div>
-                      <p className="font-semibold">Cisco Networking Academy</p>
-                      <p className="text-sm text-slate-400">Network Security & Infrastructure</p>
+                      <p className="font-semibold">BSc. Computer Science</p>
+                      <p className="text-sm text-slate-400">Landmark University</p>
                     </div>
-                    <div>
-                      <p className="font-semibold">Continuous Learning</p>
-                      <p className="text-sm text-slate-400">Multiple security certifications from Security Blue Team, Great Learning, and industry leaders</p>
+                    <div className="pt-2">
+                      <p className="font-semibold text-sm">Professional Training</p>
+                      <p className="text-sm text-slate-400">Cisco Networking Academy • Multiple security certifications from Security Blue Team, Great Learning, and CompTIA</p>
                     </div>
                   </div>
                 </div>
@@ -566,7 +598,7 @@ function App() {
             </a>
 
             <a
-              href="mailto:contact@udohekere.dev"
+              href="mailto:udohekerenkene@gmail.com"
               className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 rounded-xl transition-all group"
             >
               <Mail className="w-6 h-6 text-white" />
