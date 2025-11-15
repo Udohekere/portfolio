@@ -458,111 +458,127 @@ function App() {
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section className="py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Professional Experience</h2>
-            <p className="text-slate-400 text-lg">Delivering security excellence across diverse environments</p>
+     {/* Experience Section */}
+<section className="py-20 px-6">
+  <div className="max-w-7xl mx-auto">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold mb-4">Professional Experience</h2>
+      <p className="text-slate-400 text-lg">Delivering security excellence across diverse environments</p>
+    </div>
+    <div className="max-w-3xl mx-auto">
+      <div className="relative">
+        <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-red-500 via-cyan-500 via-blue-500 to-purple-500"></div>
+
+        {/* New Security Engineer Position */}
+        <div className="relative pl-20 pb-12">
+          <div className="absolute left-5 w-6 h-6 bg-red-500 rounded-full border-4 border-slate-950"></div>
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+            <div className="flex items-center gap-2 mb-2">
+              <Briefcase className="w-4 h-4 text-red-400" />
+              <span className="text-red-400 text-sm font-semibold">December 2023 - Present</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-2">Security Engineer</h3>
+            <p className="text-slate-400 mb-4">Solution Community • Remote</p>
+            <p className="text-slate-300">
+              Designing and implementing advanced security solutions for enterprise clients. Leading security architecture reviews, 
+              developing automated security tooling, and driving cloud security initiatives across multi-platform environments.
+            </p>
           </div>
-          <div className="max-w-3xl mx-auto">
-            <div className="relative">
-              <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-500 via-blue-500 to-purple-500"></div>
+        </div>
 
-              <div className="relative pl-20 pb-12">
-                <div className="absolute left-5 w-6 h-6 bg-cyan-500 rounded-full border-4 border-slate-950"></div>
-                <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Briefcase className="w-4 h-4 text-cyan-400" />
-                    <span className="text-cyan-400 text-sm font-semibold">February 2022 - August 2023</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Cybersecurity Analyst</h3>
-                  <p className="text-slate-400 mb-4">Aptech • Remote</p>
-                  <p className="text-slate-300">
-                    Led security initiatives in cloud infrastructure, DevSecOps pipeline integration, and threat intelligence operations.
-                    Implemented comprehensive security architectures for multi-cloud environments and automated security workflows.
-                  </p>
-                </div>
+        <div className="relative pl-20 pb-12">
+          <div className="absolute left-5 w-6 h-6 bg-cyan-500 rounded-full border-4 border-slate-950"></div>
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+            <div className="flex items-center gap-2 mb-2">
+              <Briefcase className="w-4 h-4 text-cyan-400" />
+              <span className="text-cyan-400 text-sm font-semibold">February 2022 - August 2023</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-2">Cybersecurity Analyst</h3>
+            <p className="text-slate-400 mb-4">Aptech • Remote</p>
+            <p className="text-slate-300">
+              Led security initiatives in cloud infrastructure, DevSecOps pipeline integration, and threat intelligence operations.
+              Implemented comprehensive security architectures for multi-cloud environments and automated security workflows.
+            </p>
+          </div>
+        </div>
+
+        <div className="relative pl-20 pb-12">
+          <div className="absolute left-5 w-6 h-6 bg-blue-500 rounded-full border-4 border-slate-950"></div>
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+            <div className="flex items-center gap-2 mb-2">
+              <Briefcase className="w-4 h-4 text-blue-400" />
+              <span className="text-blue-400 text-sm font-semibold">June 2020 - February 2022</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-2">Security Operations Centre Analyst</h3>
+            <p className="text-slate-400 mb-4">Inforprive • Remote</p>
+            <p className="text-slate-300">
+              Monitored and analyzed security events using SIEM platforms. Conducted incident response, threat hunting, and vulnerability assessments.
+              Developed automated detection rules and security playbooks for SOC operations.
+            </p>
+          </div>
+        </div>
+
+        <div className="relative pl-20 pb-12">
+          <div className="absolute left-5 w-6 h-6 bg-purple-500 rounded-full border-4 border-slate-950"></div>
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+            <div className="flex items-center gap-2 mb-2">
+              <Briefcase className="w-4 h-4 text-purple-400" />
+              <span className="text-purple-400 text-sm font-semibold">February 2017 - November 2019</span>
+            </div>
+            <h3 className="text-xl font-semibold mb-2">IT Support Specialist</h3>
+            <p className="text-slate-400 mb-4">MTN • On-Site</p>
+            <p className="text-slate-300">
+              Provided technical support for IT infrastructure and network systems. Managed system security configurations,
+              troubleshot network issues, and assisted with security policy implementation.
+            </p>
+          </div>
+        </div>
+
+        <div className="relative pl-20 pb-12">
+          <div className="absolute left-5 w-6 h-6 bg-green-500 rounded-full border-4 border-slate-950"></div>
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+            <h3 className="text-xl font-semibold mb-2">Key Achievements</h3>
+            <ul className="space-y-2 text-slate-300">
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                <span>Designed and deployed hybrid network intrusion detection system using ML algorithms</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                <span>Implemented automated DevSecOps pipelines reducing security vulnerabilities by 70%</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                <span>Established comprehensive AWS security policies and compliance frameworks</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                <span>Conducted threat hunting operations and digital forensics investigations</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="relative pl-20">
+          <div className="absolute left-5 w-6 h-6 bg-orange-500 rounded-full border-4 border-slate-950"></div>
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+            <h3 className="text-xl font-semibold mb-2">Education</h3>
+            <div className="space-y-3 text-slate-300">
+              <div>
+                <p className="font-semibold">BSc. Computer Science</p>
+                <p className="text-sm text-slate-400">Landmark University</p>
               </div>
-
-              <div className="relative pl-20 pb-12">
-                <div className="absolute left-5 w-6 h-6 bg-blue-500 rounded-full border-4 border-slate-950"></div>
-                <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Briefcase className="w-4 h-4 text-blue-400" />
-                    <span className="text-blue-400 text-sm font-semibold">June 2020 - February 2022</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">Security Operations Centre Analyst</h3>
-                  <p className="text-slate-400 mb-4">Inforprive • Remote</p>
-                  <p className="text-slate-300">
-                    Monitored and analyzed security events using SIEM platforms. Conducted incident response, threat hunting, and vulnerability assessments.
-                    Developed automated detection rules and security playbooks for SOC operations.
-                  </p>
-                </div>
-              </div>
-
-              <div className="relative pl-20 pb-12">
-                <div className="absolute left-5 w-6 h-6 bg-purple-500 rounded-full border-4 border-slate-950"></div>
-                <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Briefcase className="w-4 h-4 text-purple-400" />
-                    <span className="text-purple-400 text-sm font-semibold">February 2017 - November 2019</span>
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">IT Support Specialist</h3>
-                  <p className="text-slate-400 mb-4">MTN • On-Site</p>
-                  <p className="text-slate-300">
-                    Provided technical support for IT infrastructure and network systems. Managed system security configurations,
-                    troubleshot network issues, and assisted with security policy implementation.
-                  </p>
-                </div>
-              </div>
-
-              <div className="relative pl-20 pb-12">
-                <div className="absolute left-5 w-6 h-6 bg-green-500 rounded-full border-4 border-slate-950"></div>
-                <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-2">Key Achievements</h3>
-                  <ul className="space-y-2 text-slate-300">
-                    <li className="flex items-start gap-2">
-                      <ChevronRight className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                      <span>Designed and deployed hybrid network intrusion detection system using ML algorithms</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <ChevronRight className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                      <span>Implemented automated DevSecOps pipelines reducing security vulnerabilities by 70%</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <ChevronRight className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                      <span>Established comprehensive AWS security policies and compliance frameworks</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <ChevronRight className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                      <span>Conducted threat hunting operations and digital forensics investigations</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="relative pl-20">
-                <div className="absolute left-5 w-6 h-6 bg-orange-500 rounded-full border-4 border-slate-950"></div>
-                <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                  <h3 className="text-xl font-semibold mb-2">Education</h3>
-                  <div className="space-y-3 text-slate-300">
-                    <div>
-                      <p className="font-semibold">BSc. Computer Science</p>
-                      <p className="text-sm text-slate-400">Landmark University</p>
-                    </div>
-                    <div className="pt-2">
-                      <p className="font-semibold text-sm">Professional Training</p>
-                      <p className="text-sm text-slate-400">Cisco Networking Academy • Multiple security certifications from Security Blue Team, Great Learning, and CompTIA</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="pt-2">
+                <p className="font-semibold text-sm">Professional Training</p>
+                <p className="text-sm text-slate-400">Cisco Networking Academy • Multiple security certifications from Security Blue Team, Great Learning, and CompTIA</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
+      </div>
+    </div>
+  </div>
+</section>
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 bg-slate-900/50">
         <div className="max-w-4xl mx-auto text-center">
